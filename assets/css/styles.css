@@ -1,0 +1,17 @@
+.btn{
+    transition: background-color 0.6s;
+    border-width: 1px;
+    border-color: #000000;
+}
+
+.btn:hover{
+    background-color: #c3ce2e;
+    box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform: scale(1.05);
+}
+
+.input {
+    transition: background-color 0.6s;
+    border-width: 1px;
+    border-color: #000000;
+}
