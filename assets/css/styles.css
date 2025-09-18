@@ -1,17 +1,60 @@
-.btn{
-    transition: background-color 0.6s;
-    border-width: 1px;
-    border-color: #000000;
+body {
+    background: linear-gradient(to right, #4b6cb7, #182848);
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.btn:hover{
-    background-color: #c3ce2e;
-    box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    transform: scale(1.05);
+.clickable-image {
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+  border-radius: 8px;
+  border: 3px solid transparent;
+}
+
+.clickable-image:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(255, 255, 255, 0.3);
+  border-color: #ffc107;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+.modal-body img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.btn {
+  transition: all 0.3s;
+  border-width: 1px;
+  border-color: #000000;
+}
+
+.btn:hover {
+  background-color: #c3ce2e;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
 }
 
 .input {
-    transition: background-color 0.6s;
-    border-width: 1px;
-    border-color: #000000;
+  transition: background-color 0.6s;
+  border-width: 1px;
+  border-color: #000000;
+}
+
+.img {
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.modal-content {
+    background: linear-gradient(to bottom, #2c3e50, #4ca1af);
+    color: white;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    width: 5%;
 }
